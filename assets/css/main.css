@@ -1391,6 +1391,23 @@ html {
   box-sizing: border-box;
 }
 
+.contact-img {
+  width: 75px;
+}
+
+.contact-row {
+  padding-bottom: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact p {
+  font-family: tenby-five;
+  color: #00f7ff75;
+  text-shadow: 0.5px 0.5px #00ff88;
+}
+
 *,
 *:before,
 *:after {
