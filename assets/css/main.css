@@ -1395,11 +1395,25 @@ html {
   width: 75px;
 }
 
-.contact-row {
-  padding-bottom: 5vh;
+#contact {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: column;
+  align-content: center;
+}
+
+.br-eng {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact-row {
+  padding-bottom: 3vh;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
 }
 
 #contact p {
