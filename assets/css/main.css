@@ -1429,8 +1429,13 @@ html {
 }
 
 body {
-  background: rgb(0, 255, 91);
-  background: linear-gradient(165deg, rgb(0, 167, 58) 0%, rgb(0, 12, 143) 100%);
+  background: rgb(0, 250, 91);
+  background: linear-gradient(
+    165deg,
+    rgb(58 134 188) 0%,
+    rgb(46 196 125) 48%,
+    rgb(28 0 148) 100%
+  );
   background-size: auto, 100% 100%;
   background-attachment: fixed;
   overflow-y: scroll;
