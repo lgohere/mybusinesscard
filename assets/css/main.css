@@ -1555,7 +1555,24 @@ a:link {
   filter: drop-shadow(2px 0px 3px #001a63);
 }
 
+.gifkenobi {
+  border-radius: 25px;
+  border: 1px solid #009c3e;
+  filter: drop-shadow(2px 0px 3px #001a63);
+}
+
+.col-centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 @media screen and (max-width: 736px) {
+  .gifkenobi {
+    width: 80%;
+    display: flex;
+  }
+
   h1 {
     font-size: 2em;
   }
@@ -1753,8 +1770,9 @@ header > p {
 }
 
 .image.fit {
-  display: block;
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  max-width: 80%;
 }
 
 .image.featured {
